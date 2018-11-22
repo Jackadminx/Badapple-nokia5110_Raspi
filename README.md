@@ -16,4 +16,27 @@ python video.py
 pip install -r requirements.txt
 ```
 
-有苹果的地方就有烂屏幕！ 😂
+## 接口
+
+\# Raspberry Pi hardware SPI config:
+
+RST ====> GPIO24
+
+CE  ====> CE0
+
+DC  ====> GPIO23 
+
+DIN ====> MOSI 
+
+CLK ====> SCLK   
+
+VCC ====> VCC
+
+BL  ====> VCC
+
+GND ====> GND
+
+
+
+如需查看GPIO接口图请在终端输入`gpio readall`
+
